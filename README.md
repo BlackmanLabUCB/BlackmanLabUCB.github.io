@@ -1,2 +1,2 @@
-# blackmanlab.github.io
+# BlackmanLabUCB.github.io
 Blackman Lab UCB Website
