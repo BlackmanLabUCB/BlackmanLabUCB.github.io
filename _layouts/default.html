@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Welcome</a></li>
+	        	<li><a href="/Research">Research</a></li>
+        		<li><a href="/Publications">Publications</a></li>
+        		<li><a href="/Courses">Courses</a></li>
+            <li><a href="/People">People</a></li>
+            <li><a href="/Lab_News">Lab News</a></li>
+            <li><a href="/Photos">Photos</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+      
+    	{{ content }}
+      
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+        		<p>University of California, Berkeley</p>
+        		<p>Departments of Plant & Microbial Biology and Integrative Biology</p>
+            <p>111 Koshland Hall #3102, Berkeley, CA 94720</p>
+			</ul>
+		</footer>
+	</body>
+</html>
